@@ -62,9 +62,10 @@ main PROC
     MOV AL, 6     ; Mode 4
     INT 10H
 
-MOV AH, 0BH   ; Set text color
-MOV BH, 00H   ; Page number 
-MOV BL, 00H   ; Background color (black)
+MOV AH, 0BH   
+MOV BH, 00H   
+MOV BL, 00H   
+; Background color (black) and text color cyan
 INT 10H
 
     mov ax, @data
