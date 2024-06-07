@@ -30,6 +30,19 @@ The Fire Control System is a program designed to manage fire safety and alarm fu
 - Ensure proper input format when prompted, especially when entering the smoke level during fire alarm testing.
 - This program is intended for educational purposes and may require modifications for real-world applications.
 
+# Program 3: Chessboard Pattern in Assembly
+
+This project demonstrates how to create a simple chessboard pattern using assembly language. It utilizes BIOS interrupts to draw squares on the screen.
+
+  **Description:**
+
+- **BlackSquare Macro**: This macro is used to draw a black square on the screen. It takes four parameters: the starting row, starting column, ending row, and ending column.
+- **Main Procedure**: Sets up the white background and calls the `blackSquare` macro to draw the black squares in a chessboard pattern.
+- **BIOS Interrupts**: Utilizes BIOS interrupt `10h` to manipulate the screen.
+
+
+
+
 
 
  
